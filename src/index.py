@@ -1,5 +1,8 @@
 from varasto import Varasto
 
+x = 3  # pylint: disable=invalid-name
+print(x)
+
 
 def main():
     print("Hello")
