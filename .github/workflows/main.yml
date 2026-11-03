@@ -24,3 +24,5 @@ jobs:
         uses: codecov/codecov-action@v4
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      - name: Pylint tests
+        run: uv run pylint src
