@@ -3,8 +3,7 @@ from varasto import Varasto
 x = 3  # pylint: disable=invalid-name
 print(x)
 
-
-def main():
+def main(): # pylint: disable=too-many-statements
     print("Hello")
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
